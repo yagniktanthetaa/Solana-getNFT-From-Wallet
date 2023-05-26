@@ -2,6 +2,7 @@ import React from "react";
 import ClickIncrease from "./(pages)/ClickIncrease/page";
 import HoverIncrease from "./(pages)/HoverIncrease/page";
 import FetchWalletNFT from "./(pages)/FetchWalletNFT/page";
+import DataFetching from "./(pages)/DataFetching/page";
 
 const Home = () => {
   return (
@@ -10,7 +11,8 @@ const Home = () => {
         <h1>This is Home Page...</h1>
         {/* <ClickIncrease />
         <HoverIncrease /> */}
-        <FetchWalletNFT />
+        {/* <FetchWalletNFT /> */}
+        <DataFetching />
       </div>
     </>
   );
